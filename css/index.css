@@ -1,0 +1,157 @@
+@charset"UTF-8";
+/*********************************************/
+/* logo样式 */
+/*********************************************/
+.logo {
+	width: 80%;
+	height: 10%;
+	margin: 0 auto;		
+}
+.logo img {
+	margin-top: 1%;
+}
+.content {
+	height: 80%;
+	margin: 2% 0;
+}
+.login {
+	position: relative;
+	height: 80%;
+	background: url(../img/zhcs4.png) no-repeat center; 
+	
+}
+.telephone {
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top: -40px;
+	height: 40px;
+	font-size: 14px;
+}
+/*********************************************/
+/* 登录框样式 */
+/*********************************************/
+.login-box {
+	width:18%;
+	height: 80%; 
+	position: absolute;
+	right: 100px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #ffffff;
+	opacity: 0.8;
+	border: 1px solid #E2E1E1;
+	border-radius: 5px;
+}
+.login-mode {
+	display: flex;
+	-webkit-display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.login-mode span {
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.QR-login {
+	background-color: #145388;
+	color: #ffffff;
+}
+.account-login {
+	background-color: #ffffff;
+	color: #0F0D0D;
+}
+
+.show{
+	display: block;
+}
+.login-title {
+	display: block;
+	width: 80%;
+	font-size: 13px;
+	margin: 0 auto;
+}
+.login-info {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+.login-info .label-box {
+	display: block;
+	width: 100%;
+	height: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    background-color: #dbdcb9;
+}
+.label-box input {	
+	padding-top: 8px;
+    display: block;
+    background-color: #dbdcb9;
+}
+.btn {
+	display: block;
+	width:  100%;
+	height: 30px;
+	color: #FFFFFF;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #3586b5;
+}
+.remember-password {
+		position: absolute;
+		right: 10px;
+		margin-top: 20px;
+}
+.remember-password p {
+	display: inline-block;
+	font-size: 12px;
+	color: #87a4c2;
+}
+.theme {
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	font-size: 12px; 
+	color: #87a4c2;
+}
+.QR {
+	display: none;
+}
+.QR img {
+	width: 100%;
+}
+/*********************************************/
+/* 合作伙伴样式 */
+/*********************************************/
+.partner {
+	width: 80%;
+	height: 20%;
+	margin: 0 auto;
+	display: flex;
+	-webkit-display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.partner-left {
+	margin-right: 10px;	
+}
+.partner-right img {
+	width: 40px;
+	height: 40px;
+}
+.partner img {
+	border: 1px solid #F6F6F6;
+}
+.footer {
+	height: 5%;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 12px;
+}
